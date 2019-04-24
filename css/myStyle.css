@@ -1,0 +1,109 @@
+/* myStyle.css */
+
+body {
+    background-image: url("/picture/background.jpg");
+    background-color: #F08080;
+    background-size: cover;
+}
+#big-title {
+    height: 1200px;
+    width: 1200px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+#big_title h1 {
+     font-size: 400%;
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+     color: white;
+     text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navigation {
+    text-align: right;
+    display: block;
+    top: 0;
+    width: 100%;
+
+}
+
+#navigation li  {
+  background-color: light-grey;
+  display: inline;
+  font-size: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#navigation ul {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1;
+}
+
+#navigation li a:link {
+    color: white;
+}
+
+#navigation li a:hover {
+    color: yellow;
+}
+
+#navigation li a:visited {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: transparent;
+}
+.flex-container > div {
+  background: transparent;
+  width: 50px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18 px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 7px;
+  border-color: white;
+  border-style: solid;
+  border-line:thin;
+  padding: 10px;
+}
+
+#start h2 {
+    color: white;
+
+}
+
+#navigation .flex-container >div > a:link {
+    color: white;
+}
+
+#navigation .flex-container >div > a:hover {
+    color: yellow;
+}
+
+#navigation .flex-container >div > a:visited {
+  color: white;
+}
